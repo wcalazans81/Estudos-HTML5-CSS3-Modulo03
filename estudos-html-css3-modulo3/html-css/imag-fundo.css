@@ -1,0 +1,73 @@
+
+body {
+    background-image: url(imagens/logo_final3_1.ico);
+    background-size:  100px 100px;
+    background-repeat: repeat-y;
+    /*background-repeat: repeat-x;
+    background-repeat: no-repeat;*/
+}
+
+h1 {
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aqua;
+    padding: 20px 100px;
+
+   
+}
+
+div.quadrado {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 400px;
+    height: 400px;
+}
+
+div#q1 {
+    margin: 2px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 400px;
+    height: 400px;
+    
+
+}
+
+div#q2 {
+    background-image: linear-gradient(to bottom, yellow, blue);
+
+}
+
+div#q3 {
+    background-image: url(imagens/logo_final3_1.ico);
+    background-size: 100px 100px;
+   
+
+}
+
+div#q1 {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+div#q1:visited {
+    color: darkgreen;
+}
+
+div#q1:hover  {
+    color: black;
+    text-decoration: underline;
+}
+
+div#q1:active {
+    color: yellow;
+}

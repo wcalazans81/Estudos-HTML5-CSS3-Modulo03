@@ -1,0 +1,104 @@
+@charset "UTF8";
+
+
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center; /* Posição do texto na tela*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    /*text-transform: capitalize;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.1vw;    
+}
+
+a:hover {
+    color: rgb(116, 116, 247); /* Colorir texto quando passa o cursor*/
+}
+
+header > p {
+    padding: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none; /* Retirar Decoração do texto*/
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline; /* sublinhar texto quando passar o cursor */
+}
+
+section {
+    
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em; 
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.1vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.541);  /* Sombra para dentro*/
+    background-attachment: fixed; /* Fixar imagem de fundo*/
+}
+
+section.imagem > p {
+    display: inline-block;/* Ajustar a caixa de acordo com o texto*/
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1.5px 2px 0px black;
+}
+
+section#imag01 {
+    background-image: url(imagens/background001.jpg); /* coloca a imagem de fundo */
+    background-position: right center;                 /*  posiciona a imagem de fundo  */         
+    background-size: cover;                            /*  Deixa a imagem de fundo do tamanho da tela */
+}
+
+section#imag02 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    line-height: 2em; /* Espaçamento entre altura de linha*/
+
+}
+

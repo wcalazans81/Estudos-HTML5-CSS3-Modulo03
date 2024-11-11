@@ -1,0 +1,19 @@
+
+
+#container {
+    position: relative;
+    height: 97vh;
+    background-color: blue;
+}
+
+#conteudo {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: brown;
+    
+    left: 50%;
+    top: 50%;
+    
+    transform: translate(-50%, -50%);
+}
